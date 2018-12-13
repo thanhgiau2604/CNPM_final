@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+       font-family: 'Poppins', sans-serif;
+}
+
+.row.text-center {
+    padding-top: 136px;
+    padding-bottom: 31px;
+}
+.menu li:hover {
+    color: #1a242f;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #1a242f;
+}
+
+.danhmuc {
+    margin-left: 69px;
+}
+
+.col-md-2.col-md-push-5 {
+    margin-top: -20px;
+}
+
+.tienhoa .menu li {
+    margin-top: 7px;
+}
+
+
+.tienhoa .btn-btn-default.nutlogin {
+    padding: 4px;
+}
+
+
+.thumbnail {
+    background: #E6E3E3;
+    border-radius: 40px;
+    margin-top: 36px;
+}
+
+
+h2 {
+    color: #dc2828;
+    font-weight: 600;
+}
+
+
+
+button.nuttt {
+    padding-top: 0px;
+    margin-top: 2px;
+    transition: all 0.5s;
+}
+
+
+hr.small.text-center {
+    border-top: 3px solid white;
+}
+
+
+.dt .duongke {
+    border-top: 5px solid;
+    color: white;
+    border-radius: 7px;
+    padding-top: 18px;
+    margin-top: 13px;
+    transition: all 0.5s;
+}
+
+
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav li a {
+    padding: 7px 7px;
+    transition: all 0.4s;
+    margin-left: 15px;
+}
+.collapse.navbar-collapse.navbar-ex1-collapse {
+    margin-right: 150px;
+    padding-top: 21px;
+    transition: all 0.5s; 
+}
+
+.tienhoa .collapse.navbar-collapse.navbar-ex1-collapse {
+    padding: 0px;
+}
+
+a.navbar-brand {
+    font-size: 26px;
+    padding-top: 33px;
+    transition: all 0.5s; 
+    text-decoration: none;
+}
+
+
+.tienhoa a.navbar-brand {
+    padding-top: 15px;
+}
+
+.container.dt {margin-right: 71px;}
+
+nav.navbar.navbar-default {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.tienhoa {
+    height: 69px;
+}
+.navbar-default {
+    background: #6518f5d1;
+    background-repeat: repeat;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+}
+
+nav.navbar.navbar-default{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin: 0;
+}
+
+footer {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+footer .footer-above {
+    padding-top: 45px;
+    background-color: #6518f5d1;
+}
+
+footer .footer-col {
+    margin-bottom: 45px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #380598d1;
+}
+
+img .imglogo {
+    height: 40px;
+}
+.logofooter {
+    margin-top: -32px;
+}
+.shortlink{
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0px;
+}
+.shortlink li a{
+  color: white;
+}
+.shortlink li a:hover {
+  text-decoration: underline;
+  color: #18bc9c;
+}
+
+.btn-social {
+    display: inline-block;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    transition: all 0.4s; 
+}
+.btn-social:hover {
+    background: white;
+}
+
+.caption h3, .caption p{
+    color: blue;
+}
+
+.gioithieu {
+    background: white;
+    background-repeat: repeat-y;
+}
+.gioithieu {
+    margin-top: 0px;
+}
+.gioithieu h2{
+    color: #131149;
+}
+.gioithieu h2 {margin-top: 0px;padding-top: 37px;font-size: 39px;}
+.gioithieu p{
+    color: #131149;
+    font-size: 18px;
+}
+
+.row.intro {
+    padding-bottom: 40px;
+}
+
+.luuy, .modau, .detail {
+    text-indent: 20px
+}
+.tienhoa .duongke {
+    padding-top: 0px;
+    margin-top: -7px;
+    z-index: 10;
+    position: relative;
+}
+/* -----------Khung thong tin ------------------ */
+.khung {
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.nuttt {
+    background: transparent;
+    padding: 17px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 19px;
+    color: #04f952f7;
+}
+
+.tienhoa button.nuttt {
+    margin-top: -11px;
+}
+
+.ava {
+    width: 40px;
+    text-indent: -9090px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.danhmuctt {
+    position: absolute;
+    right: 0;
+}
+
+.tienhoa .danhmuctt {
+    margin-top: -17px;
+}
+
+.danhmuctt {
+    display: none;
+    z-index: 20;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    -webkit-transition: z-index 1s;
+    -o-transition: z-index 1s;
+    transition: z-index 1s;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+}
+
+.nuttt:after {
+    width: 0;
+    height: 0;
+    content: "";
+    z-index: 2;
+    border-top: 4px solid #f7f6f6;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -9px;
+}
+.danhmuctt a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+.danhmuctt a:hover{
+    color: blue;
+}
+.khung:hover .danhmuctt{
+    display: block;
+}
+/* nut thubnail */
+ .nutchon {
+    border: none;
+    text-decoration: none;
+    margin-top: 40%;
+ }
+ .nutchon a {
+    text-decoration: none;
+    color: white;
+ }
+/* --hieuung hover-- */
+.all-captions-wrap{margin: 0 auto;text-align:center;}
+.caption, .caption1 {
+    float: left;
+    overflow: hidden;
+    margin: 0px 4% 1rem 0;
+  text-align:center;
+}
+.caption:nth-child(2n), .caption1:nth-child(2n){
+    margin-right: 0;
+}
+.caption img, .caption1 img {
+    width: 100%;
+    display: block;
+}
+.caption figcaption, .caption1 figcaption {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    
+}
+.caption figcaption h3, .caption1 figcaption h3 {
+    font-size: 2.2rem;
+    color: white;
+    margin: 20;
+}
+.caption figcaption p, .caption1 figcaption p {
+    margin: 20;
+}
+.caption, .caption1 {
+    position: relative;
+}
+.caption figcaption, .caption1 figcaption {
+    position: absolute;
+    width: 100%;
+}
+.caption figcaption, .caption1 figcaption {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.figcaption-wrap {
+    margin-top:20%;
+    display: none;
+}
+.figcaption-wrap h3 {
+    font-size: 18px;
+}
+.ngtao h3 {
+    color: blue;
+}
+
+img.navbar-brand {
+  width: 190px;
+  height: auto;
+  padding-top: 27px;
+  padding-bottom: 0px;
+  transition: all 0.5s; 
+}
+.navbar-header {
+    margin-left: -10px;
+}
+.tienhoa img.navbar-brand {
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+.tienhoa ul.nav.navbar-nav.navbar-right.menu {
+    margin-top: 5px;
+}
+
+.container.dt {
+    margin-right: 0px;
+  }
+
+ul.nav.navbar-nav.navbar-right.menu {
+    margin-right: 69px;
+    padding-top: 4px;
+}
+@media(max-width: 1200px) and (min-width: 768px){
+    .navbar-nav>li {
+      text-align: center;
+  }
+
+  .navbar-nav {
+      padding-left: 109px;
+      margin-top: -41px;
+      padding-right: 0px;
+  }
+
+  .collapse.navbar-collapse.navbar-ex1-collapse {
+      margin-right: 35px;
+  }
+
+  .khung {
+      right: 22%;
+  }
+
+  ul.nav.navbar-nav.navbar-right.menu li > a {
+      font-size: 14px;
+  }
+
+  a.btnTC {
+  }
+
+  .tienhoa .duongke {
+      margin-top: -5px;
+  }
+
+  .tienhoa ul.nav.navbar-nav.navbar-right.menu {
+      margin-top: -5%;
+  }
+
+  ul.nav.navbar-nav.navbar-right.menu li a {font-size: 15px;padding: 2px 3px;}
+
+  .khung {
+      margin-top: 16px;
+      margin-right: 0px;
+      padding-right: 0px;
+      right: -8%;
+  }
+
+  .duongke {
+      width: 118%;
+  }
+
+  .container.dt {margin-left: 0px;}
+
+  button.nuttt {
+  }
+}
+  @media(max-width: 767px) {
+      a.navbar-brand {
+        padding-top: 17px;
+    }
+    .gioithieu p{
+        font-size: 15px;
+    }
+    .note {
+        font-size:15px;
+    }
+    .note span {
+        font-size:15px;
+        text-align: justify;
+    }
+    .nutlogin {
+        padding-bottom: 0px;
+        float: right;
+        transition: all 0.5s;
+        padding-right: 0px;
+        margin-right: -18px;
+        margin-top: -2px;
+    }
+    .duongke {
+        width: 102%;
+    }
+
+    .tienhoa .duongke {
+        margin-top: 5px;
+    }
+    .nav li a {
+        padding: 7px 21px;
+        transition: all 0.4s;
+        margin-left: 41px;
+    }
+    .navbar-nav {
+        margin-top: -6px;
+        margin-right: 10px;
+        margin-bottom: 0.75px;
+        margin-left: -48px;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        padding: 9px 10px;
+        margin-top: 13px;
+    }
+
+    .container.dt{
+        background: #6518f5d1;
+    }
+
+    .khung {
+        margin-right: -29px;
+    }
+
+    .khung {
+        margin-left: 0px;
+    }
+
+    img.navbar-brand {
+        width: 47%;
+        padding-top: 22px;
+    }
+    .hinhanh img {
+        width: 110%;
+
+    }
+    .navbar-right .menu {
+        background: #6518f5d1
+    }
+    .tienhoa ..navbar-right {
+        background: #6518f5d1
+    }
+    .tienhoa .dt .duongke {
+        padding-bottom: 10px;
+    }
+    .tienhoa .menu li {
+        display: block;
+    }
+
+    .item-txt {
+        padding: 4px 12px 7px;
+        width: calc(124% - 50px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item-txt > h3 {
+        font-size: 18px;
+        line-height: 30px;
+        color: #111c16;
+        font-weight: 400;
+    }
+
+    .item-txt > p {
+        font-size: 12px;
+        line-height: 16px;
+        color: #737373;
+    }
+    .tinhchat1, .tinhchat2, .tinhchat3, .tinhchat4 {
+     padding: 2px 4px 5px;
+     width: calc(100%);
+ }
+
+ .tinhchat1 h3, .tinhchat2 h3, .tinhchat3 h3, .tinhchat4 h3 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 13px;
+  padding-top: 5px;
+}
+
+.tinhchat1 p, .tinhchat2 p, .tinhchat3 p, .tinhchat4 p {
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: -6px;
+}
+.khungcn{
+  margin-left: 5px;
+}
+.col-lg-4.wow.zoomIn {
+  display: inline;
+}
+
+.bg-yellow {
+  margin-top: -31px;
+}
+.bg-green {
+  margin-top: -21px;
+}
+
+.bg-orange {
+  margin-top: -21px;
+}
+.ul.nav.navbar-nav.navbar-right.menu ul {
+  display: inline-block;
+}
+.chuto{
+  font-size: 20px;
+  top: 47%;
+  left: 2%;
+  text-align: center;
+}
+.chunho {
+  top: 40%;
+  font-size: 15px;
+} 
+
+.nutgt{
+  left: 26%;
+  width: 21%;
+  top: 62%;
+} 
+
+.btn.btn-default.nutgt a {
+  font-size: 11px;
+}
+.ul.nav.navbar-nav.navbar-right.menu ul li{
+  display: block;
+}
+}

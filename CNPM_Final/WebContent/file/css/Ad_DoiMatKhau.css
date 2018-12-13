@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+label.error {
+    display: block;
+    color: red;
+    padding-left: 0;
+}
+.menu li:hover {
+    color: #1a242f;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #1a242f;
+}
+
+.col-md-2.col-md-push-5 {
+    margin-top: -20px;
+}
+.tienhoa .menu li {
+    margin-top: 7px;
+}
+button.nuttt {
+    padding-top: 0px;
+    margin-top: 2px;
+    margin-right: -74px;
+    transition: all 0.5s;
+}
+
+.dt .duongke {
+    border-top: 5px solid;
+    color: white;
+    border-radius: 7px;
+    padding-top: 18px;
+    margin-top: 13px;
+    transition: all 0.5s;
+    width: 115%;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav li a {
+    padding: 7px 7px;
+    transition: all 0.4s;
+    margin-left: 15px;
+}
+
+
+.collapse.navbar-collapse.navbar-ex1-collapse {
+    margin-right: 48px;
+    padding-top: 21px;
+    transition: all 0.5s;
+}
+
+.tienhoa .collapse.navbar-collapse.navbar-ex1-collapse {
+    padding: 0px;
+}
+
+a.navbar-brand {
+    font-size: 26px;
+    padding-top: 33px;
+    transition: all 0.5s; 
+    text-decoration: none;
+}
+
+.tienhoa a.navbar-brand {
+    padding-top: 15px;
+}
+
+.container.dt {margin-right: 20px;margin-left: 20px;}
+
+.collapse.navbar-collapse.navbar-ex1-collapse {}
+
+nav.navbar.navbar-default {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.tienhoa {
+    height: 69px;
+}
+.navbar-default {
+    background: #6518f5d1;
+    background-repeat: repeat;
+}
+
+.tienhoa .duongke {}
+
+
+nav.navbar.navbar-default{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin: 0;
+}
+
+
+
+footer {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+footer .footer-above {
+    padding-top: 45px;
+    background-color: #6518f5d1;
+}
+
+footer .footer-col {
+    margin-bottom: 45px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #380598d1;
+}
+
+img .imglogo {
+    height: 40px;
+}
+.logofooter {
+    margin-top: -32px;
+}
+.shortlink{
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0px;
+}
+.shortlink li a{
+  color: white;
+}
+.shortlink li a:hover {
+  text-decoration: underline;
+  color: #18bc9c;
+}
+
+.btn-social {
+    display: inline-block;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    transition: all 0.4s; 
+}
+.btn-social:hover {
+    background: white;
+}
+
+
+.caption h3, .caption p{
+    color: blue;
+}
+
+
+.tienhoa .duongke {
+    padding-top: 0px;
+    margin-top: -7px;
+    z-index: 10;
+    position: relative;
+}
+/* -----------Khung thong tin ------------------ */
+.khung {
+    position: relative;
+    float: right;
+    margin-top: 18px;
+    margin-right: -95px;
+    transition: all 0.5s;
+}
+
+.nuttt {
+    background: transparent;
+    padding: 17px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 19px;
+    color: #04f952f7;
+}
+
+.tienhoa button.nuttt {
+    margin-top: -11px;
+}
+
+.ava {
+    width: 40px;
+    text-indent: -9090px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.danhmuctt {
+    position: absolute;
+    right: 0;
+}
+
+.tienhoa .danhmuctt {
+    margin-top: -17px;
+}
+
+.danhmuctt {
+    margin-right: -76px;
+    display: none;
+    z-index: 20;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    -webkit-transition: z-index 1s;
+    -o-transition: z-index 1s;
+    transition: z-index 1s;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+}
+
+.nuttt:after {
+    width: 0;
+    height: 0;
+    content: "";
+    z-index: 2;
+    border-top: 4px solid #f7f6f6;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    right: -69px;
+    top: 50%;
+    margin-top: -9px;
+}
+.danhmuctt a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+.danhmuctt a:hover{
+    color: blue;
+}
+.khung:hover .danhmuctt{
+    display: block;
+}
+.nenslide {
+    padding-top: 30px;
+    width: 100%;
+    height: 740px;
+    background-image: url("../file/Images/backEdu.jpg");
+    background-size: cover;
+}
+.mucluachon h2 {
+	color: #de0707;
+	font-weight: 600;
+}
+
+.mucluachon h3 {
+    color: #15b503;
+    font-weight: 550;
+}
+
+/*   Style doi mat khau */
+.pom-agile {
+    margin-right: 0px;
+}
+.main-content-agile.doimk {
+    padding-top: 40px;
+    padding-bottom: 85px;
+    margin-bottom: -181px;
+    background: #8041f685;
+}
+.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"], .sub-main-w3 input[type="text"]{
+    outline: none;
+    font-size: .9em;
+    padding: 1em 3em 1em 1em;
+    border: none;
+    margin-bottom: 0.3em;
+    background: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    color: #000;
+    border-radius: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.sub-main-w3 {
+    width: 32%;
+    margin: 10em auto 12em;
+}
+
+.sub-main-w3 input[type="submit"] {
+    color: white;
+    background: #ea2858;
+    border: none;
+    padding: .7em 0;
+    margin-bottom: 51px;
+    outline: none;
+    width: 44%;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 91px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border-radius: 30px;
+}
+.sub-main-w3 input[type="submit"]:hover {
+    background: #fff;
+    color: black;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -o-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -ms-transition:0.5s all;
+}
+
+.wthree-pro h2 {
+    font-size: 1.5em;
+    color: #ea2858;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pom-agile {
+    position: relative;
+}
+
+span.icon1, span.icon2 {
+    color: #ea2858;
+    font-size: 1.1em;
+    position: absolute;
+    right: 6%;
+}
+span.icon1 {
+    top: 41%;
+}
+span.icon2 {
+    top: 34%;
+}
+
+.sub-w3l h6 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+.sub-w3l h6 a {
+    font-size: 1em;
+    color: #1033e8;
+    letter-spacing: 1px;
+    text-align: right;
+}
+.sub-w3l {
+    margin-top: 1em;
+}
+.right-w3l {
+    margin-top: 2em;
+}
+
+input.pass {
+    margin-top: .7em;
+}
+/* end style */
+
+img.navbar-brand {
+  width: 190px;
+  height: auto;
+  padding-top: 27px;
+  padding-bottom: 0px;
+  transition: all 0.5s; 
+}
+.navbar-header {
+    margin-left: -10px;
+}
+.tienhoa img.navbar-brand {
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+.tienhoa ul.nav.navbar-nav.navbar-right.menu {
+    margin-top: 4px;
+}
+ul.nav.navbar-nav.navbar-right.menu {
+    margin-top: 11px;
+    margin-right: -21px;
+    padding-top: -5px;
+    transition: all .5s;
+    text-align: left;
+    display: inline-block;
+}
+@media(min-width: 768px ) and (max-width: 1200px){
+  .navbar-nav>li {
+    text-align: center;
+  }
+  .navbar-nav {
+    padding-left: 142px;
+    padding-top: -11px;
+  }
+
+  ul.nav.navbar-nav.navbar-right.menu {
+    margin-right: 23px;
+    margin-left: 26px;
+    margin-top: -36px;
+  }
+  .tienhoa ul.nav.navbar-nav.navbar-right.menu {
+    margin-top: -61px;
+    margin-left: 35px;}
+
+    .tienhoa .duongke {
+      margin-top: -5px;
+    }
+
+    ul.nav.navbar-nav.navbar-right.menu li a 
+    {
+      font-size: 12px;
+      padding: 2px 3px;
+    }
+
+    .khung {
+      margin-top: 16px;
+      right: 10%;
+    }
+
+    .container.dt {margin-left: 0px;}
+
+    button.nuttt {
+    }
+  }
+@media(max-width: 767px) {
+    a.navbar-brand {
+      padding-top: 17px;
+    }
+    .duongke {
+      width: 123%;
+    }
+    .nav li a {
+      padding: 5px 20px;
+      transition: all 0.4s;
+      margin-left: 41px;
+    }
+
+    .container dt {
+      margin-left: 0px;
+    }
+
+    .tienhoa .nav li a {
+      padding: 3px 48px;
+    }
+    .navbar-nav {
+      margin-top: -6px;
+      margin-right: 10px;
+      margin-bottom: 0.75px;
+      margin-left: -56px;
+    }
+
+    ul.nav.navbar-nav.navbar-right.menu {
+      padding-top: 0px;
+      margin-top: -10px;
+    }
+
+    ul.nav.navbar-nav.navbar-right.menu li {
+      display: block;
+    }
+
+
+    .tienhoa ul.nav.navbar-nav.navbar-right.menu {
+      padding: 0px 18px;
+    }
+
+    .tienhoa ul.nav.navbar-nav.navbar-right.menu {
+      padding-top: -20px;
+    }
+
+    .tienhoa .duongke {
+      margin-top: 5px;
+    }
+    .navbar-toggle {
+      margin-right: -10px;
+      padding: 9px 10px;
+      margin-top: 25px;
+    }
+
+    .khung {
+      margin-right: 57px;
+      margin-left: 0px;
+    }
+    .container.dt {
+      margin-right: 0px;
+      margin-left: 0px;
+      background: #6518f5d1;
+    }
+    img.navbar-brand {
+      width: 43%;
+      padding-left: 0px;
+      padding-top: 19px;
+    }
+    .hinhanh img {
+      width: 110%;
+
+    }
+    .navbar-right .menu {
+      background: #6518f5d1
+    }
+    .tienhoa ..navbar-right {
+      background: #6518f5d1
+    }
+    .tienhoa .dt .duongke {
+      padding-bottom: 10px;
+    }
+    .tienhoa .menu li {
+      display:  inline-block;
+    }
+    .khungcn{
+        margin-left: 5px;
+    }
+    .ul.nav.navbar-nav.navbar-right.menu ul {
+        display: inline-block;
+    }
+}
+@media(max-width: 767px) 
+{
+
+    .pom-agile {
+        margin-left: -109px;
+        margin-right: -86px;
+    }
+
+    .sub-main-w3 input[type="submit"] {
+        margin-left: 6px;
+        width: 90%;
+    }
+
+    .sub-w3l {
+        margin-left: -33px;
+    }
+
+    .right-w31 {
+    }
+
+    .wthree-pro h2 {
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+
+    .wthree-pro {
+        margin-left: -32px;
+    }
+    label.error {
+     font-size: 12px;
+     padding-left: 0px;
+ }
+}
