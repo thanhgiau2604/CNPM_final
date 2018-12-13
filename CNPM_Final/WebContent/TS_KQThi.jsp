@@ -57,7 +57,7 @@
 				
 				<div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right menu">
-						<li ><a class="btnTC" href="#idtrangchu">TRANG CHỦ</a></li>
+						<li ><a class="btnTC" href="TrangChuTS.jsp">TRANG CHỦ</a></li>
 					    <li ><a class="btnTC" href="TS_ChonDeThi.jsp">VÀO THI</a></li>
 						<li ><a class="btnTC" href="TS_LichSuThi.jsp">LỊCH SỬ</a></li>
 						<li ><a class="btnTC" href="TS_ThongBao.jsp">THÔNG BÁO</a></li>

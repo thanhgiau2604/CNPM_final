@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@page import="dao.CauHoidao"%>
     <%if (session.getAttribute("tenDN")==null)
 	response.sendRedirect("Guest_DangNhap.jsp"); %>
     <%
@@ -85,7 +86,7 @@
 							<div class="tt">
 								 <img src="file/Images/id.svg" alt="" height="30" class="anhicon">
 								<div class="col-3 input-effect dulieu">
-									<input class="effect-21" type="text" placeholder="Mã đề thi" name="madethi">
+									<input class="effect-21" type="text" placeholder="Mã đề thi" name="madethi" value="<%=new CauHoidao().RamdomMaDT((String)session.getAttribute("tenDN"))%>">
 									<label>Mã đề thi</label>
 									<span class="focus-border">
 										<i></i>

@@ -65,15 +65,17 @@ public class ServletXuLyVaoThi extends HttpServlet {
 		if (thaotac.equals("Tiếp theo"))
 		{
 			session.setAttribute("stt", stt+1);
-			RequestDispatcher rd = request.getRequestDispatcher("TS_VaoThi.jsp");
-			rd.forward(request, response);
+			//RequestDispatcher rd = request.getRequestDispatcher("TS_VaoThi.jsp#exam");
+			//rd.forward(request, response);
+			response.sendRedirect("TS_VaoThi.jsp");
 		}
 		else
 			if (thaotac.equals("Trước đó"))
 			{
 				session.setAttribute("stt", stt-1);
-				RequestDispatcher rd = request.getRequestDispatcher("TS_VaoThi.jsp");
-				rd.forward(request, response);
+				/*RequestDispatcher rd = request.getRequestDispatcher("TS_VaoThi.jsp#exam");
+				rd.forward(request, response);*/
+				response.sendRedirect("TS_VaoThi.jsp");
 			}
 			else
 			{

@@ -33,7 +33,7 @@ public class ServletChamDiemBaiThi extends HttpServlet {
 		System.out.println("TenDN="+TenDN+" MaDT="+MaDT+" LuotThi="+LuotThi);
 		float DiemThi=0;
 		try {
-			ResultSet rs = new VaoThidao().TinhDiemThi(MaDT, LuotThi);
+			ResultSet rs = new VaoThidao().TinhDiemThi(TenDN,MaDT, LuotThi);
 			while (rs.next())
 			{
 				System.out.println("Diem="+rs.getFloat(1));

@@ -59,9 +59,9 @@ public class VaoThidao {
 		ResultSet rs = dbc.selectData(sql);
 		return rs;
 	}
-	public ResultSet TinhDiemThi(String MaDT, int LuotThi) throws Exception
+	public ResultSet TinhDiemThi(String TenDN, String MaDT, int LuotThi) throws Exception
 	{
-		String sql = "SELECT DBO.fn_TinhDiemThi('"+MaDT+"',"+LuotThi+")";
+		String sql = "SELECT DBO.fn_TinhDiemThi('"+TenDN+"','"+MaDT+"',"+LuotThi+")";
 		DBConnect dbc = new DBConnect();
 		ResultSet rs = dbc.selectData(sql);
 		return rs;

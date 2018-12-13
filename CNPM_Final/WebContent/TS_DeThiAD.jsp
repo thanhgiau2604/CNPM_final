@@ -106,7 +106,7 @@
 									<td><%=rs.getString(4)%></td>
 									<td><%=rs.getString(6)%></td>
 									<td><div class="btn btn-default nutvaothi">
-										<a href="TS_ThongTinDT.jsp?mdt=<%=rs.getString(1)%>" style="text-decoration: none">Chọn</a></div>
+										<a href="TS_ThongTinDT.jsp?mdt=<%=rs.getString(2)%>" style="text-decoration: none">Chọn</a></div>
 									</td>
 								</tr>
 								<%} %>

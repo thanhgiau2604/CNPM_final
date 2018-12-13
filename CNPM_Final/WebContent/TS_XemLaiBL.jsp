@@ -127,7 +127,7 @@
 						</ul>
 						<%} %>
 						<div class="btn btn-warning nutnop"><a href="TS_GuiPhanHoi.jsp">Gửi phản hồi</a></div> 
-						<div class="btn btn-warning nutnop"><a href="TrangChuTS.jsp">Về Trang chủ</a></div> 
+						<div class="btn btn-warning nutnop" id="exam"><a href="TrangChuTS.jsp">Về Trang chủ</a></div> 
 					</div>
 				</div>
 				
@@ -136,8 +136,7 @@
 						<div class="boxtenbl">
 							<h3 class="tenbl">
 								<img src="file/Images/exam.svg" alt="" height="30" class="anhicon">
-								THỜI GIAN HOÀN THÀNH:
-								<b>12:35</b>
+								CHI TIẾT BÀI LÀM
 							</h3>
 							<%
 							    int stt = (Integer)session.getAttribute("stt"); 

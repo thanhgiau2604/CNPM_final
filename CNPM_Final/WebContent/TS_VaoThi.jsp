@@ -129,13 +129,11 @@
 								Số câu hỏi:
 								<b><%=rs.getString(4)%></b>
 							</li>
-							<li class="dm">
+							<li class="dm" id="exam">
 								<img src="file/Images/time.svg" alt="" height="30" class="anhicon">
 								Thời gian:
 								<b><%=rs.getString(5)%></b>
 							</li>
-							<div class="btn btn-warning nutnop"> <!-- data-toggle="modal" data-target="#ModalXoa" -->
-							<a href="ServletXuLyVaoThi?ok=true" id="nopbai">Nộp bài thi</a></div>
 						</ul>
 					<%} %> 
 					</div>

@@ -34,15 +34,17 @@ public class ServletXemLaiBaiLam extends HttpServlet {
 		if (thaotac.equals("Tiếp theo"))
 		{
 			session.setAttribute("stt", stt+1);
-			RequestDispatcher rd = request.getRequestDispatcher("TS_XemLaiBL.jsp");
-			rd.forward(request, response);
+			/*RequestDispatcher rd = request.getRequestDispatcher("TS_XemLaiBL.jsp#exam");
+			rd.forward(request, response);*/
+			response.sendRedirect("TS_XemLaiBL.jsp");
 		}
 		else
 			if (thaotac.equals("Trước đó"))
 			{
 				session.setAttribute("stt", stt-1);
-				RequestDispatcher rd = request.getRequestDispatcher("TS_XemLaiBL.jsp");
-				rd.forward(request, response);
+				/*RequestDispatcher rd = request.getRequestDispatcher("TS_XemLaiBL.jsp#exam");
+				rd.forward(request, response);*/
+				response.sendRedirect("TS_XemLaiBL.jsp");
 			}
 	}
 
