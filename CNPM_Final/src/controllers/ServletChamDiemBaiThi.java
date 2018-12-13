@@ -43,7 +43,6 @@ public class ServletChamDiemBaiThi extends HttpServlet {
 			e.printStackTrace();
 		}
 		System.out.println(DiemThi);
-		//Cập nhật bảng điểm
 		new VaoThidao().ThemVaoBangDiem(TenDN, MaDT, LuotThi, DiemThi);
 		response.sendRedirect("TS_KQThi.jsp");
 	}

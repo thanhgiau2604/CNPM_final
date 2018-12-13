@@ -34,7 +34,7 @@ public class ServletXuLyVaoThi extends HttpServlet {
 
 		int stt =  (Integer)(session.getAttribute("stt"));
 		
-		//Kiểm tra
+		//Kiá»ƒm tra
 		int LuotThi = (Integer)session.getAttribute("LuotThi");	
 		String TenDN = (String)session.getAttribute("tenDN");
 		String MaDT = (String)session.getAttribute("MaDT");

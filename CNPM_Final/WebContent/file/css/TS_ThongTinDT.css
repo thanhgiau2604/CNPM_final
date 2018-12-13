@@ -69,14 +69,12 @@ ul.nav.navbar-nav.navbar-right.menu {
     padding: 0px;
 }
 
-
 a.navbar-brand {
     font-size: 26px;
     padding-top: 33px;
     transition: all 0.5s; 
     text-decoration: none;
 }
-
 
 .tienhoa a.navbar-brand {
     padding-top: 15px;
@@ -279,21 +277,21 @@ img .imglogo {
 .btn.btn-default.nutlambai {
     margin-left: 44%;
     margin-top: 17px;
-    background: #25e62573;
-    border: 2px solid #0dc30d;
+    background: #1839e4c2;
+    border: none;
     transition: all 0.5s;
     border-radius: 18px;
     margin-bottom: 18px;
 }
 
 .btn.btn-default.nutlambai:hover {
-    background: #0d610d;
+    background: #0643f3;
 }
 
 .ttdt h3 {
     font-weight: 600;
     font-size: 29px;
-    color: #2a2ff1f7;
+    color: #f94c16db;
 }
 
 .row.ttdt {
@@ -301,7 +299,7 @@ img .imglogo {
     margin-right: 234px;
     margin-top: 136px;
     padding-bottom: 53px;
-    background: #ef2eb27a;
+    background: #05b90cb3;
     border-radius: 46px;
     color: white;
     font-size: 19px;
