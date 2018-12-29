@@ -1,6 +1,5 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<% session.setAttribute("count",0); %>
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -10,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
                                                                                                                                                               
-    <title>Webiste Thi Trắc Nghiệm Trực Tuyến</title>
+    <title>Website Thi Trắc Nghiệm Trực Tuyến</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="file/css/bootstrap.min.css" rel="stylesheet">
@@ -56,12 +55,12 @@
             <div class="sub-main-w3">
                     <div class="wthree-pro text-center">
                         <h2>QUÊN MẬT KHẨU</h2>
-                        <h3>XÁC NHẬN QUA EMAIL</h3>
+                        <h3>Nhập mã code đã gửi qua email để đặt mật khẩu mới!</h3>
                     </div>
-                    <form action="ServletQuenMatKhau" method="post" id="formquenmk">
+                    <form action="ServletXacNhanCode" method="post" id="formquenmk">
                         <div class="pom-agile">
-                            <span class="field">Nhập Email:</span>
-                            <input name="mail" class="user" type="email">
+                            <span class="field">Nhập code:</span>
+                            <input name="code" class="user" type="text">
                             <span class="icon1"><i class="fa fa-user" aria-hidden="true"></i></span>
                         </div>
                         <div class="sub-w3l">

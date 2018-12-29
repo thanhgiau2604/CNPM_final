@@ -44,7 +44,7 @@ public class ServletThayDoiTTNguoiDung extends HttpServlet {
 		out.println("<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>");
 		out.println("<script>");
 		out.println("$(document).ready(function(){");
-		out.println("swal(\"Thông báo\",\"Cập nhật thông tin thành công!\",\"success\")");
+		out.println("swal(\"Thông báo\",\"Cập nhật thông tin thành công!!\",\"success\")");
 		out.println("});");
 		out.println("</script>");
 	}

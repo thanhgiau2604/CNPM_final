@@ -1,45 +1,45 @@
 $(function(){
 	$("#formtlph").validate({
             rules: {
-                noidung: {
+                noiDung: {
                     required: true,
                     minlength: 10
                 },
-                textA: {
+                luaChonA: {
                     required: true
                 },
-                 textB: {
+                luaChonB: {
                     required: true
                 },
-                 textC: {
+                luaChonC: {
                     required: true
                 },
-                 textD: {
+                luaChonD: {
                     required: true
                 },
-                textkey: {
+                dapAn: {
                     required: true
                 }
 
             },
            messages: {
-                noidung: {
+                noiDung: {
                     required: "Bạn phải nhập nội dung câu hỏi!",
                     minlength: "Tối thiểu là 10 ký tự!"
                 },
-                textA: {
+                luaChonA: {
                     required: "Hãy nhập lựa chọn!"
                 },
-                textB: {
+                luaChonB: {
                     required: "Hãy nhập lựa chọn!"
                 },
-                textC: {
+                luaChonC: {
                     required: "Hãy nhập lựa chọn!"
                 },
-                textD: {
+                luaChonD: {
                     required: "Hãy nhập lựa chọn!"
                 },
-                textkey: {
+                dapAn: {
                     required: "Hãy nhập đáp án!"
                 }
 

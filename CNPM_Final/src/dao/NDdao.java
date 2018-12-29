@@ -103,6 +103,19 @@ public class NDdao implements ObjectDAO{
 		}
 		return false;
 	}
+	public boolean CapNhatMatKhau_QMK(String MatKhau, String Email)
+	{
+		String MatKhauMD5 = MD5Library.MD5(MatKhau);
+		String sql="EXECUTE CapNhatMatKhau_QMK '"+MatKhauMD5+"','"+Email+"'";
+		try {
+			new DBConnect().excuteSQL(sql);		
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		}
+		return false;
+	}
 	public ResultSet KiemTraMatKhau(String TenDN, String MatKhau) throws Exception
 	{
 		String MatKhauMD5 = MD5Library.MD5(MatKhau);

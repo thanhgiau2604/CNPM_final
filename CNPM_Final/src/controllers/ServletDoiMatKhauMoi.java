@@ -24,10 +24,11 @@ public class ServletDoiMatKhauMoi extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html;charset=UTF-8");
+		HttpSession session = request.getSession();
 		PrintWriter out = response.getWriter();
 		String MatKhau = request.getParameter("password");
-		String TenDN = (String)getServletContext().getAttribute("tenDN");
-		new NDdao().CapNhatMatKhau(MatKhau, TenDN);
+		String Email = (String)session.getAttribute("mail");
+		new NDdao().CapNhatMatKhau_QMK(MatKhau, Email);
 		out.println("<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.all.js\"></script>");
 		out.println("<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>");
 		out.println("<script>");

@@ -83,7 +83,7 @@ public class ServletDoiMatKhau extends HttpServlet {
 				out.println("<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>");
 				out.println("<script>");
 				out.println("$(document).ready(function(){");
-				out.println("swal(\"Thông báo\",\"Mật khẩu không khớp\",\"error\")");
+				out.println("swal(\"ThÃ´ng bÃ¡o\",\"Mật khẩu không khớp\",\"error\")");
 				out.println("});");
 				out.println("</script>");
 				RequestDispatcher rd;
@@ -107,12 +107,12 @@ public class ServletDoiMatKhau extends HttpServlet {
 			else
 			{
 				new NDdao(). CapNhatMatKhau(matKhaumoi, tenDN);
-				System.out.println("Cập nhật thành công");
+				;
 				out.println("<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.all.js\"></script>");
 				out.println("<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>");
 				out.println("<script>");
 				out.println("$(document).ready(function(){");
-				out.println("swal(\"Thông báo\",\"Đổi mật khẩu thành công\",\"success\")");
+				out.println("swal(\"Thông báo\",\"Đăng nhập thành công\",\"success\")");
 				out.println("});");
 				out.println("</script>");
 				RequestDispatcher rd;

@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/controllers/ServletDangNhap.java=UTF-8
+encoding//src/controllers/ServletDoiMatKhau.java=UTF-8
+encoding//src/controllers/ServletDoiMatKhauMoi.java=UTF-8
+encoding//src/controllers/ServletQuenMatKhau.java=UTF-8
+encoding//src/controllers/ServletThayDoiTTNguoiDung.java=UTF-8
+encoding//src/controllers/ServletThayDoiThongTin.java=UTF-8
+encoding//src/controllers/ServletXacNhanCode.java=UTF-8
+encoding//src/controllers/ServletXemDeThi.java=UTF-8
+encoding//src/controllers/ServletXemLaiBaiLam.java=UTF-8
+encoding//src/controllers/ServletXuLyVaoThi.java=UTF-8
+encoding//src/dao/SendMail.java=UTF-8
