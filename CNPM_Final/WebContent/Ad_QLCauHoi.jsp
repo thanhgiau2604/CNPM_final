@@ -79,7 +79,7 @@
 		<div class="container">
 			<div class="qlybd text-center">
 				<h3>DANH SÁCH CÂU HỎI</h3>
-				<div class="btn btn-default nutwrite"><a href="Ad_ThemSuaCauHoi.jsp">Tạo câu hỏi mới</a></div> 
+				<div class="btn btn-default nutwrite"><a href="AD_ThemCauHoi.jsp">Tạo câu hỏi mới</a></div> 
 				<div class="row">
 					<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-md-push-1">
 						<table class="table table-bordered">

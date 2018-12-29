@@ -106,7 +106,7 @@
 								</span>
 							</label>
 							<div class="radio">
-								<label><input type="radio" name="optradio" value="1">Thí sinh</label>
+								<label><input type="radio" name="optradio" value="1" checked>Thí sinh</label>
 							</div>							
 						</div>
 						<div class="form-group ">

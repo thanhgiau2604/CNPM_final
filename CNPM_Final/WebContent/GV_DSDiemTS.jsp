@@ -180,7 +180,7 @@
 		</div>
 	</div>			
        <!-- end table -->
-
+    <% session.removeAttribute("tieuchi"); %>
 		  <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
